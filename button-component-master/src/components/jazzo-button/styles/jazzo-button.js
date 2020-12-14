@@ -11,9 +11,10 @@ export const Container = styled.button`
     outline: none;
 
     ${({ variant }) => (variant === "outline") ? `
-
+        
         //  put the CSS for outline here
- 
+        background: none;
+        border: 1px solid #3F3F3F;
     ` : ``}
 
     &:hover {

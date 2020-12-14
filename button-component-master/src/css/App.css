@@ -7,7 +7,7 @@
 }
 
 .button-window {
-  flex: 1;
+  flex: 2;
   align-items: center;
 }
 
@@ -26,6 +26,53 @@ h2 {
 .controls {
   flex: 1;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 50px;
+  border-left: 1px solid #e1e1e1;
+}
+
+.controls label {
+  font-size: 0.6em;
+}
+
+.controls * {
+  padding: 10px 0px 5px 0px;
+}
+
+.icon-selection-area {
+    padding: 10px;
+    background: #f3f3f3;
+    border: 1px solid #cccccc;
+    width: 100%;
+    max-width: 300px;
+}
+
+.icon-selection-area * {
+    padding: 10px;
+    transition: 1s;
+    font-size: 2rem;
+}
+.icon-selection-area *:hover {
+  color: #85729E;
+  transform: scale(1.2);
+}
+
+.code-output {
+  padding: 10px;
+  background-color: #252525;
+  width: 80%;
+  overflow-x: scroll;
+  margin: 30px auto;
+  border-radius: 6px;
+  color: #e1e1e1;
+  font-family: 'DM Mono', monospace;
+  font-weight: bold;
+}
+
+.yellow {
+  color: yellow;
 }
 
 .App-logo {
