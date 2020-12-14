@@ -5,7 +5,7 @@ import JazzoButton from './components/jazzo-button'
 function App() {
     return (
         <div className="App">
-            <JazzoButton variant='outline'>
+            <JazzoButton>
                 Default
             </JazzoButton>
         </div>
